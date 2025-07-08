@@ -1,0 +1,9 @@
+ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+    unicode-bidi: isolate;
+}
