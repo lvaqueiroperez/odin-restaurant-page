@@ -1,0 +1,23 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "Project for organizing and JS practice",
+  "homepage": "https://github.com/lvaqueiroperez/odin-restaurant-page#readme",
+  "bugs": {
+    "url": "https://github.com/lvaqueiroperez/odin-restaurant-page/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvaqueiroperez/odin-restaurant-page.git"
+  },
+  "license": "ISC",
+  "author": "lvaqueiroworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
