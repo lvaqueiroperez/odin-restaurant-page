@@ -1,3 +1,5 @@
 import "./styles.css";
+import { loadHomeContent } from "./home.js";
 
-console.log("hellooo");
+console.log("aaaa");
+loadHomeContent();
