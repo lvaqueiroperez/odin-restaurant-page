@@ -32,6 +32,8 @@ body {
     line-height: 1.5;
     /* 5. Improve text rendering */
     -webkit-font-smoothing: antialiased;
+
+    background-color: #6d3b0f;
 }
 
 /* 6. Improve media defaults */
@@ -99,4 +101,28 @@ ul {
     padding-inline-start: 0px;
     unicode-bidi: isolate;
 
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1,
+h2 {
+    color: rgb(5, 138, 5);
+}
+
+img {
+    height: auto;
+    width: 70vw;
+    border: dotted rgb(248, 248, 70) 5px;
+    padding: 5px;
+}
+
+p {
+    padding-top: 1em;
+    font-size: 1.5rem;
+    color: #ffff;
 }
