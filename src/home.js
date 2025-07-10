@@ -1,5 +1,6 @@
 import pinhaImgSrc from "../img/pinhaColada.jpg";
 
+// (también podría ser un módulo de IIFE)
 const loadHomeContent = function () {
 
     const contentContainer = document.querySelector("#content");
