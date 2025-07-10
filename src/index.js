@@ -1,6 +1,7 @@
 import "./styles.css";
 import { loadHomeContent } from "./home.js";
 import { loadMenuContent } from "./menu.js";
+import { loadAboutContent } from "./about.js";
 
 console.log("aaaa");
 loadHomeContent();
@@ -25,7 +26,8 @@ document.querySelector("ul").addEventListener("click", (e) => {
             break;
 
         case "about":
-
+            removeContent();
+            loadAboutContent();
             break;
     }
 
