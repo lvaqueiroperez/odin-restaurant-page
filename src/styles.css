@@ -89,7 +89,7 @@ h6 {
 
 
 /********** MAIN CSS **************/
-ul {
+nav>ul {
     display: flex;
     gap: 25px;
     justify-content: center;
