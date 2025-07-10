@@ -122,7 +122,8 @@ img {
 }
 
 p {
-    padding-top: 1em;
+    padding: 1em 1em 0 1em;
     font-size: 1.5rem;
     color: #ffff;
+    text-align: center;
 }
